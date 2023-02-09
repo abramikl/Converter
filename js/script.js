@@ -1,6 +1,3 @@
-const rubTransitionElem = document.querySelector(".rub__transition")
-const usdTransitionElem = document.querySelector(".usd__transition")
-
 const rubInputElem = document.querySelector(".rub__input input")
 const usdInputElem = document.querySelector(".usd__input input")
 
@@ -17,12 +14,12 @@ async function getCurrencies (){
 }
 getCurrencies ()
 
-rubTransitionElem.addEventListener("click", transitionUsd);
+rubInputElem.addEventListener("input", transitionUsd);
 
 function transitionUsd (){
     usdInputElem.value = (rubInputElem.value / course.USD.Value).toFixed(2)
 }
-usdTransitionElem.addEventListener("click", transitionRub)
+usdInputElem.addEventListener("input", transitionRub)
 
 function transitionRub (){
     rubInputElem.value = (usdInputElem.value * course.USD.Value).toFixed(2)

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Converter</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&family=Readex+Pro&display=swap" rel="stylesheet">
+</head>
+<body>
+        <div class="conveter">
+            <div class="container">
+                <div class="conveter__title">
+                    <h3>Конвертер валюты  ₽ > $</h3>
+                </div>
+                <div class="transition">
+                    <div class="rub__input">
+                        <label >
+                            <span>₽</span>
+                            <input type="number">
+                        </label >
+                        <button class="rub__transition">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                            <path d="M5 12H19" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M12 5L19 12L12 19" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </button>
+                    </div>
+                    <div class="course">
+                        <div class="course__rub">
+                            <div class="rub__course"></div>
+                            <div class="rub__course-elem">₽</div>
+                        </div>
+                        <div class="usd__course">1$</div>
+                    </div>
+                </div>
+                <div class="usd">
+                    <div class="usd__input">
+                        <label >
+                            <span>$</span>
+                            <input type="number">
+                        </label>
+                        <button class="usd__transition">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                <path d="M5 12H19" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M12 5L19 12L12 19" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    <script src="./js/script.js"></script>
+</body> 
+</html>

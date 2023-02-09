@@ -1,0 +1,128 @@
+
+.conveter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.conveter__title {
+    color: #2C2C2C;
+    font-weight: 500;
+    font-size: 14px;
+    font-family: 'Inter', sans-serif;
+}
+.rub__input {
+    display: flex;
+    background-color: #6425FE;
+    border-radius: 8px;
+    height: 56px;
+    align-items: center;
+    padding-left: 20px;
+    flex-grow: 1;
+    margin-right: 10px;
+    justify-content: space-between;
+}
+.rub__input input{
+    flex-grow: 1;
+    border: none;
+    outline: none;
+    background: none;
+    color: white;
+    font-weight: 500;
+    font-size: 20px;
+}
+.rub__input span{
+    margin-right: 10px;
+    color: white;
+    font-weight: 500;
+    font-size: 20px;
+}
+.transition{
+    display: flex;
+    margin-bottom: 20px;
+}
+.rub__transition {
+    display: none;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    width: 40px;
+    height: 40px;
+    background-color: #2C2C2C;
+    margin-right: 20px;
+    border: none;
+}
+.course {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 81px;
+    height: 56px;
+    border-radius: 8px;
+    background-color: #C7FFA5;
+    font-family: 'Readex Pro', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.course__rub{
+    display: flex;
+    color: #2C2C2C;
+}
+
+.usd__course {
+    color: rgba(44, 44, 44, 0.7);
+    font-family: 'Inter', sans-serif;
+
+}
+.usd {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+}
+.usd__input {
+    display: flex;
+    background-color: #2C2C2C;
+    border-radius: 8px;
+    height: 56px;
+    align-items: center;
+    padding-left: 20px;
+    justify-content: space-between;
+}
+
+.usd__transition {
+    display: none;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    width: 40px;
+    height: 40px;
+    background-color: #6425FE;
+    border: none;
+    margin-right: 20px;
+}
+.usd__input span{
+    margin-right: 10px;
+    color: white;
+    font-weight: 500;
+    font-size: 20px;
+}
+.usd__input input{
+    border: none;
+    outline: none;
+    background: none;
+    color: white;
+    font-weight: 500;
+    font-size: 20px;
+    flex-grow: 1;
+}
+label{
+    cursor: auto;
+    display: flex;
+    flex-grow: 1;
+    align-items: center;
+    margin-right: 20px;
+}
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
